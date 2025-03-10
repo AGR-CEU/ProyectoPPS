@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Prueba</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: linear-gradient(135deg, #89f7fe, #66a6ff);
+            padding: 50px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .btn-container {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MASTER CIBERSEGURIDAD</h1>
+        <p>Asignaturas:</p>
+        <div class="btn-container">
+            <button class="btn" onclick="window.location.href='http://localhost:9999/files/PPS';">PPS</button>
+            <button class="btn" onclick="window.location.href='http://localhost:9999/files/HE';">HE</button>
+            <button class="btn" onclick="window.location.href='http://localhost:9999/files/BRS';">BRS</button>
+            <button class="btn" onclick="window.location.href='http://localhost:9999/files/AFI';">AFI</button>
+            <button class="btn" onclick="window.location.href='http://localhost:9999/files/INCIDENTES';">INCIDENTES</button>
+            <button class="btn" onclick="window.location.href='http://localhost:9999/files/NORMATIVA';">NORMATIVA</button>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
